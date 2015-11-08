@@ -22,6 +22,5 @@ Then, simply type:
 
 ... And Vagrant will create the new VM, provisioned by Ansible.
 
-## Caveats
-
-* Had to manually add personal SSH key to `~/.ssh/authorized_keys` on the Vagrant vm, and use `-u vagrant` when using `ansible` from the host machine.
+You can now access InfluxDB via the provisioned ip address of the Vagrant VM
+using the default ports.
