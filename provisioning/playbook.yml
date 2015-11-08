@@ -1,0 +1,4 @@
+---
+- hosts: influxdb
+  roles:
+    - mtchavez.influxdb
