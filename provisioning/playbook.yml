@@ -1,4 +1,4 @@
 ---
 - hosts: influxdb
   roles:
-    - mtchavez.influxdb
+    - palkan.influxdb
